@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo do documento */
+}
+
+header, footer {
+    background-color: #f1f1f1; /* Cor de fundo para cabeçalho e rodapé */
+    text-align: center; /* Alinhamento do texto ao centro */
+    padding: 10px 0; /* Espaçamento interno acima e abaixo */
+}
+
+nav ul {
+    list-style-type: none; /* Remove estilos de lista (pontos) */
+    padding: 0; /* Remove o espaçamento interno padrão da lista */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista na mesma linha */
+    margin-right: 20px; /* Margem à direita de cada item da lista */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Cor do texto dos links */
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Cor do texto dos links ao passar o mouse */
+}
